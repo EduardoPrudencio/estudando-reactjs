@@ -1,4 +1,6 @@
 import { RepositoryItem } from "./RepositoryItem";
+import '../styles/repositories.scss'
+
 const repository = {name: 'Repository Name', description: 'Texto da descricao', link: 'http://teste.com'}
 
 export function RepositoryList(){
@@ -8,7 +10,6 @@ export function RepositoryList(){
             <ul>
                <RepositoryItem repository={repository}/>
                <RepositoryItem />
-               
             </ul>
 
         </section>
