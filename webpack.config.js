@@ -8,7 +8,7 @@ module.exports = {
     mode: isDevelopment ? 'development' : 'production',
     devtool: isDevelopment ? 'eval-source-map' : 'source-map',
     resolve: {
-        extensions: ['.js', '.jsx', 'ts','tsx']
+        extensions: ['.js', '.jsx', '.ts','.tsx']
     },
     devServer: {
         contentBase: path.resolve(__dirname,'public'),

@@ -1,4 +1,4 @@
-import { RepositoryList } from "./Componentes/RepositoryList";
+import { RepositoryList } from "./componentes/RepositoryList";
 
 export function App(){
     return <>
